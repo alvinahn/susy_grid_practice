@@ -4,6 +4,13 @@
 @import "grids";
 @import "susy";
 
+$susy: (
+	gutters: 1/4,
+	global-box-sizing: border-box,
+	use-custom: (rem: true
+    )
+);
+
 header {
 	@include full;
 }
