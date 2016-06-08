@@ -1,0 +1,92 @@
+// Screen
+// ======
+
+@import "grids";
+@import "susy";
+
+header {
+	@include full;
+}
+
+footer {
+	@include span(12 of 12);
+}
+
+.container {
+  background-color: #fbeecb;
+  @include container;
+}
+
+.ag1, .ag3 {
+  background-color: #71dad2;
+}
+
+.ag2 {
+  background-color: #fae7b3;
+  @include container;
+}
+
+.ag4,.ag5,.ag8,.ag9 {
+  background-color: #ee9e9c;
+}
+
+.ag6 {
+  background-color: #f09671;
+}
+
+.ag7 {
+  background-color: #f6d784;
+  @include container;
+}
+
+.ag10 {
+  background-color: #ea9fc3;
+}
+
+.ag1 {
+	@include span(2 of 10 first);
+}
+
+.ag2 {
+	@include span(6 of 10);
+}
+
+.ag3 {
+	@include span(2 of 10 last);
+}
+
+.ag4 {
+	@include span(3 of 6 first);
+}
+
+.ag5 {
+	@include span(3 of 6 last);
+}
+
+.ag6 {
+	@include span(2 of 6 first);
+}
+
+.ag7 {
+	@include span(4 of 6 last);
+}
+
+.ag8 {
+	@include span(2 of 4 first);
+}
+
+.ag9 {
+	@include span(2 of 4 last);
+}
+
+.ag10 {
+	@include full;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
